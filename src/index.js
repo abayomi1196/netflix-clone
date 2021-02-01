@@ -15,6 +15,7 @@ var firebaseConfig = {
   appId: '1:490706611246:web:dcbc8fbccd65abe91b83bf',
 };
 
+// eslint-disable-next-line no-unused-vars
 const firebase = window.firebase.initializeApp(firebaseConfig);
 
 const { Provider } = FirebaseContext;

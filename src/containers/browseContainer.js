@@ -16,6 +16,7 @@ export function BrowseContainer({ slides }) {
   const [loading, setLoading] = useState(true);
   const [slideRows, setSlideRows] = useState([]);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const user = {
     displayName: 'User',
     photoURL: '3',
@@ -42,6 +43,7 @@ export function BrowseContainer({ slides }) {
     } else {
       setSlideRows(slides[category]);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchTerm]);
 
   return profile.displayName ? (
