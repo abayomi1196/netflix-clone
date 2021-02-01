@@ -1,0 +1,11 @@
+export { default as Jumbotron } from './jumbotron/jumbotron';
+export { default as Footer } from './footer/footer';
+export { default as Accordion } from './accordion/accordion';
+export { default as OptForm } from './opt-form/optForm';
+export { default as Header } from './header/header';
+export { default as Feature } from './feature/feature';
+export { default as Form } from './form/form';
+export { default as Profiles } from './profiles/profiles';
+export { default as Loading } from './loading/loading';
+export { default as Card } from './card/card';
+export { default as Player } from './player/player';
